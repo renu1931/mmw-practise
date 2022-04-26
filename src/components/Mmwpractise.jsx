@@ -15,10 +15,11 @@ import image19 from "../images/image19.png";
 import image20 from "../images/image20.png";
 
 import AOS from "aos";
-
 AOS.init({
   offset: 120,
-  duration: 400,
+  delay: 1,
+  duration: 800,
+  mirror: true,
 });
 
 const Mmwpractise = () => {
