@@ -15,8 +15,7 @@ import image19 from "../images/image19.png";
 import image20 from "../images/image20.png";
 
 import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
+import "aos/dist/aos.css";
 AOS.init({
   offset: 120,
   duration: 400,
@@ -83,7 +82,7 @@ const Mmwpractise = () => {
         </div>
       </div>
 
-      <div className="container-fluid pl-5 " id="mmw-owned-div">
+      <div className="container-fluid pl-5" id="mmw-owned-div">
         <div className="row pl-5">
           <div className="col-md-3" id="mmw-owned1" data-aos="fade-up">
             <h6>10+</h6>
@@ -382,8 +381,8 @@ const Mmwpractise = () => {
                   <div className="col-md-6">
                     <h4 id="first-h4">Victoria</h4>
                     <p id="first-p1">
-                      <i class="fa-solid fa-map-location-dot"></i>3/17 Perpetual
-                      St,
+                      <i className="fa-solid fa-map-location-dot"></i>3/17
+                      Perpetual St,
                     </p>
                     <h6 id="first-h6">
                       TRUGANINA VIC<br></br> 3029
@@ -392,8 +391,8 @@ const Mmwpractise = () => {
                   <div className="col-md-6">
                     <h4 id="first-h4">New South Wales</h4>
                     <p id="first-p1">
-                      <i class="fa-solid fa-map-location-dot"></i>3/17 Perpetual
-                      St,
+                      <i className="fa-solid fa-map-location-dot"></i>3/17
+                      Perpetual St,
                     </p>
                     <h6 id="first-h6">
                       TRUGANINA VIC<br></br> 3029
@@ -403,30 +402,34 @@ const Mmwpractise = () => {
                 <div className="row" id="dot-row">
                   <div className="col-md-6">
                     <p id="circle-dot">
-                      <i class="fa-solid fa-circle-check"></i>
+                      <i className="fa-solid fa-circle-check"></i>
                       Web Design Sydney
                     </p>
                     <p id="circle-dot">
-                      <i class="fa-solid fa-circle-check"></i>Web Design Perth
+                      <i className="fa-solid fa-circle-check"></i>Web Design
+                      Perth
                     </p>
                     <p id="circle-dot">
-                      <i class="fa-solid fa-circle-check"></i> Web Design
+                      <i className="fa-solid fa-circle-check"></i> Web Design
                       Geelong
                     </p>
                     <p id="circle-dot">
-                      <i class="fa-solid fa-circle-check"></i> Web Design
+                      <i className="fa-solid fa-circle-check"></i> Web Design
                       Newcastle
                     </p>
                   </div>
                   <div className="col-md-6">
                     <p id="circle-dot">
-                      <i class="fa-solid fa-circle-check"></i>Web Design Sydney
+                      <i className="fa-solid fa-circle-check"></i>Web Design
+                      Sydney
                     </p>
                     <p id="circle-dot">
-                      <i class="fa-solid fa-circle-check"></i> Web Design Perth
+                      <i className="fa-solid fa-circle-check"></i> Web Design
+                      Perth
                     </p>
                     <p id="circle-dot">
-                      <i class="fa-solid fa-circle-check"></i>Web Design Geelong
+                      <i className="fa-solid fa-circle-check"></i>Web Design
+                      Geelong
                     </p>
                   </div>
                 </div>
@@ -435,19 +438,19 @@ const Mmwpractise = () => {
               <div className="col-md-4">
                 <h4 id="quick-h4">Quick Links</h4>
                 <p id="quick-p">
-                  <i class="fa-solid fa-circle-check"></i> About Us
+                  <i className="fa-solid fa-circle-check"></i> About Us
                 </p>
                 <p id="quick-p">
-                  <i class="fa-solid fa-circle-check"></i> FAQs
+                  <i className="fa-solid fa-circle-check"></i> FAQs
                 </p>
                 <p id="quick-p">
-                  <i class="fa-solid fa-circle-check"></i>Our Portfolio
+                  <i className="fa-solid fa-circle-check"></i>Our Portfolio
                 </p>
                 <p id="quick-p">
-                  <i class="fa-solid fa-circle-check"></i>Services
+                  <i className="fa-solid fa-circle-check"></i>Services
                 </p>
                 <p id="quick-p">
-                  <i class="fa fa-circle-check"></i>Blog
+                  <i className="fa fa-circle-check"></i>Blog
                 </p>
               </div>
             </div>
@@ -460,19 +463,19 @@ const Mmwpractise = () => {
             <h6 id="third-h6">info@makemywebsite.com.au</h6>
             <div id="footer-social-icons">
               <p>
-                <i class="fa-brands fa-facebook-square"></i>
+                <i className="fa-brands fa-facebook-square"></i>
               </p>
               <p>
-                <i class="fa-brands fa-instagram-square"></i>
+                <i className="fa-brands fa-instagram-square"></i>
               </p>
               <p>
-                <i class="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-linkedin"></i>
               </p>
               <p>
-                <i class="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-twitter"></i>
               </p>
               <p>
-                <i class="fa-brands fa-youtube"></i>
+                <i className="fa-brands fa-youtube"></i>
               </p>
             </div>
           </div>
