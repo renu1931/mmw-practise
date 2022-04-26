@@ -1,38 +1,501 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ 
+}
+#mmw-main-container{
+  background-color: rgb(220, 224, 236);
+ 
+}
+#mmw-logo{
+ height: 22%;
+ padding-top: 25px;
+ padding-bottom: 32px;
+}
+#mmw-div-h2{
+ font-weight: bold;
+ font-size: 40px;
+}
+#mmw-div-h2-p1{
+  color: red;
+  font-size: 20px;
+}
+#mmw-div-h2-p2{
+  color: red;
+  font-size: 20px;
+  margin-top: -6px;
+}
+#mmw-div-h2-p{
+  color: gray;
+  font-weight: 500;
+  line-height: 29px;
+  word-spacing: 2px;
+}
+#mmw-div-h2-btn{
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: red;
+  margin-top: 15px;
+}
+#mmw-div-h2-btn i {
+  padding-right: 5px;
+ 
+}
+#input-div{
+height: 50%;
+  margin-top: 4rem;
+  text-align: center;
+  text-transform: capitalize;
+ background-color:rgb(244, 247, 255);
+ margin-left: 2rem;
+ margin-bottom: 12px;
+ border-top: 3px solid purple;
+}
+#input-div h4{
+  padding-bottom: 10px;
+}
+#input-div h6{
+  padding-bottom: 10px;
+}
+#input1{
+  width: 90%;
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  padding-left: 3rem;  
+}
+#input{
+  margin-top: 15px;
+  width: 90%;
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+ padding-left: 3rem;
+  
+  
+}
+#input2{
+ 
+  text-transform: capitalize;
+  width: 90%;
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-bottom: 60px;
+  margin-bottom: 15px;
+  padding-left: 3rem;
+}
+#input-btn{
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  background-color: red;
+  margin-top: 18px;
+ 
+}
+#login-img-1{
+position: relative;
+
+}
+#login-img-2{
+  position: relative;
+  }
+#login-img-3{
+  position: relative;
+  
+  }
+#login-img-4{
+  position: relative;
+  }
+#login-img-5{
+  position: relative;
+ }
+#input-logo1{
+  position: absolute;
+  left: 6%;
+  top: 38%;
+  padding-left: 10px;
+  
+}
+#input-logo2{
+  position: absolute;
+  left: 6%;
+  top: 25%;
+  padding-left: 10px;
+  
+}
+#input-logo3{
+  position: absolute;
+  left: 6%;
+  top: 25%;
+  padding-left: 10px;
+  
+}
+#input-logo4{
+  position: absolute;
+  left: 6%;
+  top: 25%;
+  padding-left: 10px;
+  
+}
+#input-logo5{
+  position: absolute;
+  left: 6%;
+  top: 15%;
+  padding-left: 10px;
+  
+}
+
+#mmw-owned1 h6 {
+  text-align: center;
+  color: red;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+#mmw-owned1 h5{
+  text-align: center;
+  
+}
+#mmw-owned2 h6{
+  text-align: center;
+  color: red;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+#mmw-owned2 h5{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#mmw-owned3 h6{
+  text-align: center;
+  color: red;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+#mmw-owned3 h5{
+  text-align: center;
+}
+#mmw-owned4 h6{
+  text-align: center;
+  color: red;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+#mmw-owned4 h5{
+  text-align: center;
+}
+#mmw-owned-div{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color:rgb(244, 247, 255);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ #about-slider-img{
+ width: 100vw;
+ height: 58vh;
+ margin-top: -2rem;
+ 
+ }
+ 
+ #carausel-para1 h3{
+padding-bottom: 20px;
+font-size: 35px;
+color: black;
+
+ }
+ #carausel-para1 p{
+  font-size: 18px;
+  color: black;
+
+   }
+   #carausol-story{
+     text-align: center;
+     padding-top:5rem;
+     
+     padding-bottom: 25px;
+   background-color: #adb5bde3
   }
+  #carausol-story h4{
+    font-size: 50px;
+    padding-bottom: 20px;
+  }
+  #carausol-story p{
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  #demo{
+    margin-bottom: 5rem;
+  }
+
+  #project{
+    background-color:#d9e8f599;
+  }
+  #project-div{
+    text-align: center;
+  }
+  #project-h2{
+    padding-bottom: 20px;
+  }
+  #project-p{
+   font-size: 18px;
+  }
+  #project-p p{
+    font-size: 18px;
+   
+   }
+   #project-btn{
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+  }
+  #team-project{
+    text-align: center;
+  }
+  #team-project h2{
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 40px;
+  }
+  #team-project p{
+    padding-top: 25px;
+   font-size: 18px;
+  }
+  #team-project-img{
+    width: 70%;
+  }
+  
+  #latest-container{
+    background-color:#d9e8f599;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+  #latest-h3{
+    font-size: 33px;
+    font-weight: 700;
+    padding-bottom: 30px;
+  }
+  #latest-btn{
+    border: none;
+      padding: 10px 20px;
+      color: white;
+      background-color: red;
+}
+#service-delivery-div{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+#service-delivery-container{
+  background-color:#cce2f599;
+  
+}
+#service-img-div{
+  height: 20vh;
+  background-color: white;
+  width: 20vw;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  padding-left: 4.5rem;
+}  
+#service-img{
+  height: 50%;
+  width: 55%;
+ 
+}
+#service-h2{
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+#service-p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+#service-input-div{
+  border: 1px solid gray;
+  background-color: rgb(244, 247, 255);
+ 
+}
+#service-input-h4{
+  text-align: center;
+  margin-top: -20px;
+  padding-bottom: 12px;
+}
+#service-input-p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#sevice-input1{
+  width: 80%;
+  margin-left: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 13px;
+  padding-left: 30px;
+}
+#sevice-input2{
+  width: 80%;
+  margin-left: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 13px;
+  padding-left: 30px;
+}
+#sevice-input3{
+  width: 80%;
+  margin-left: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 13px;
+  padding-left: 30px;
+}
+#sevice-input4{
+  width: 80%;
+  margin-left: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 13px;
+  padding-left: 30px;
+}
+#service-input5{
+  width: 80%;
+  margin-left: 30px;
+  padding-top: 6px;
+  padding-bottom: 3rem;
+  margin-bottom: 13px;
+  padding-left: 30px;
+}
+#service-input-btn{
+  border: none;
+  padding: 10px 20px;
   color: white;
+  background-color: red;
+  margin-top: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+#service-btn-div{
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#login-img-1{
+position: relative;
+}
+#login-img-2{
+  position: relative;
+}
+#login-img-3{
+    position: relative;
+}
+#login-img-4{
+  position: relative;
+}
+#login-img-5{
+  position: relative;
+}
+#service-input-logo1{
+  position: absolute;
+  left: 35px;
+  top: 10px;
+}
+#service-input-logo2{
+  position: absolute;
+  left: 35px;
+  top: 10px;
+}
+#service-input-logo3{
+  position: absolute;
+  left: 35px;
+  top: 10px;
+}
+#service-input-logo4{
+  position: absolute;
+  left: 35px;
+  top: 10px;
+}
+#service-input-logo5{
+  position: absolute;
+  left: 35px;
+  top: 10px;
+}
+#footer-social-icons{
+  display: flex;
+ 
+}
+#footer-social-icons p{
+ padding-right:40px ;
+ font-size: 30px;
+ color: red;
+}
+#footer-last{
+  display: flex;
+ background-color: rgb(17, 16, 16);
+ justify-content: space-between;
+ color: white;
+padding: 20px 15px;
+}
+#footer-main-container{
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  padding-left: 4.5rem;
+  padding-right: 4rem;
+}
+#first-h4{
+  color:red;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+#first-p1 i {
+padding-right: 10px;
+font-size: 18px;
+}
+#first-h6{
+ padding-left: 2rem;
+ font-size: 18px;
+ margin-top: -6px;
+ padding-bottom:2.5rem ;
   }
-  to {
-    transform: rotate(360deg);
+  #circle-dot i{
+color: red;
+padding-right: 7px;
+font-size: 16px;
+
   }
-}
+  #circle-dot {
+    margin-top: -7px;
+  }
+  #dot-row{
+    padding: 25px;
+  }
+  #quick-h4{
+    color:red;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  #quick-p i{
+    
+    padding-right: 7px;
+    font-size: 16px;
+  }
+  #quick-p {
+    margin-top: -7px;
+  }
+  #third-p{
+    padding-right: 2rem;
+    word-spacing: 4px;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  #third-h6{
+font-size: 20px;
+border-bottom: 2px solid red;
+width: 57%;
+  }
